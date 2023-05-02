@@ -1,0 +1,47 @@
+#mario_head{
+    margin: 0;
+    width: 100%;
+}
+
+h3{
+    float: left;
+}
+
+#insruc{
+    float: right;
+    color: black;
+    border:1px white;
+    font: size 20px;
+    border-radius: 15px;
+padding: 10px;
+}
+
+body{
+    background-size: cover !important; 
+}
+
+#mario_img{
+    width: 100%;
+}
+
+.jump{
+display: inline-block;
+width: 45%;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.modal-header{
+    color: white;
+}
+
+video{
+   background:url('game_console.png') ;
+   background-size: cover;
+   background-position: center;
+   padding: 25px;
+   
+}
+

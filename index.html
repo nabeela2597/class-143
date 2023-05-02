@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <title>p5.play.Mario</title>
+    <!-- link p5.js and its addons like p5.dom.js or p5.sound.js -->
+    <script src="lib/p5.min.js" type="text/javascript"></script>
+    <!-- link p5.play.js -->
+    <script src="lib/p5.play.js" type="text/javascript"></script>
+    <!-- link p5.dom.js -->
+    <script src="lib/p5.dom.js" type="text/javascript"></script>
+
+    <!-- link your javascript sketch -->
+    <script src="scripts/sprites.js" type="text/javascript"></script>
+
+    <script src="main.js" type="text/javascript"></script>
+
+    <script src="characters_environment.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+  </head>
+  <body background="https://images.template.net/105799/free-abstract-gaming-background-a3ddm.jpg">
+<center>
+  <div class="btn btn-heading btn btn-info" id="mario_head">
+    <h3>MARIO GAME</h3>
+    <button data-toggle="modal" data-target="#myModal" id="insruc">Instuctions</button>
+  </div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoAnvk46OrUV984-OAqAoIFf2Q4hnvCmaIfgz4B4gKmMTomd0spsP7S5XWAHcaHAWxYEI&usqp=CAU" id="mario_img">
+<br>
+<button class="btn btn-warning" onclick="start()" id="start_button">Start</button>
+<br>
+<h2 id="status" class="btn btn-success"></h2>
+<br>
+<div id="canvas"></div>
+<div id="game">
+  
+</div>
+<div>
+  <h4>
+   Source from Linuk <a href="https://github.com/linuk"></a> 
+  </h4>
+</div>
+
+<div id="myModal" class="modal fade">
+  <div class="modal-dialog">
+     <div class="model-content">
+      <div class="modal-header">
+        <button data-dismiss = 'modal' class="close">&times;</button>
+        <h3 class="modal-title">
+          Instructions
+        </h3>
+          </div>
+      <div class="modal-body">
+          <img src="jump.png" class="jump">
+          <img src="left.png" class="jump">
+          <img src="right.png" class="jump">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</center>
+  </body>
+</html>
